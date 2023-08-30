@@ -1,0 +1,20 @@
+#billSelectionContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 3%;
+
+}
+
+#billSelectionContainer label{
+    margin-left: 2%;
+}
+
+#billSelectionContainer input{
+    background-image: url('./images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 8px ;
+    padding-right: 0.5rem;
+}

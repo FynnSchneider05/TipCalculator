@@ -1,0 +1,123 @@
+:root{
+    --primary: hsl(172, 67%, 45%);
+    --secondary: hsl(183, 100%, 15%);
+    --textColor: hsl(186, 14%, 43%);
+    --GrayishCyan: hsl(184, 14%, 56%);
+    --LightGrayishCyan: hsl(185, 41%, 84%);
+    --VeryLightGrayishCyan: hsl(180, 3%, 87%);
+    --White: hsl(0, 0%, 100%);
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');;
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100svh;
+    background-color: var(--LightGrayishCyan);
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Space Mono', monospace;
+
+    width: 800px;
+    max-width: 100%;
+    background-color: var(--White);
+    border-radius: 30px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+label{
+    color: var(--textColor);
+    font-size: 0.9rem;
+    font-weight: 1000;
+}
+
+input{
+    text-align: right;
+    width: 90%;
+    height: 2rem;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-weight: 750;
+    font-size: 1.3rem;
+    background-color: var(--VeryLightGrayishCyan);
+    color: var(--secondary);
+}
+
+input:focus{
+    outline: 2px solid var(--primary);
+}
+
+
+#inputContainer{
+    height: 80%;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+#outputContainer{
+    background-color: var(--secondary);
+    width: 45%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+
+
+button:enabled{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.attribution { 
+    display: block;
+    font-size: 11px; text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 850px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        
+    }
+
+    #inputContainer{
+        width: 90%;
+    }
+    #outputContainer{
+        width: 90%;
+    }
+}
+
+
+#logo{
+  min-width: 100%;
+}
