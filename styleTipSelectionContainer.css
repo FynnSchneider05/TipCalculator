@@ -42,14 +42,15 @@ input::placeholder{
     color: var(--secondary);
 }
 
+@media(max-width: 850px){
+    #tipGrid input{
+        padding-left: 0.3rem;
+    }
+}
 
 @media (max-width: 400px) {
     #tipGrid{
         grid-template-columns: 6rem 6rem;
         grid-template-rows: 2.5rem 2.5rem 2.5rem;
-    }
-
-    #tipGrid input{
-        padding-left: 0.3rem;
     }
 }

@@ -13,7 +13,7 @@ Users should be able to:
 
 **ScreenShot of my project/design**
 
-**1) Home Page where a user can enter the age as day, month and year and after a click on the button in the middle it will generate the current age of the user**
+**1) Home Page where a user can enter a bill, the percentage they want to tip and the amount of persons. The page will calculate how much each person has to pay**
 
 <img src="./images/ScreenshotDesktop.png" width="300"/>
 
