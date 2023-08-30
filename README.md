@@ -15,11 +15,11 @@ Users should be able to:
 
 **1) Home Page where a user can enter a bill, the percentage they want to tip and the amount of persons. The page will calculate how much each person has to pay**
 
-<img src="./images/ScreenshotDesktop.png" width="300"/>
+<img src="./images/ScreenshotDesktop.png" width="500"/>
 
 **2) This one is the Mobile version design**
 
-<img src="./images/ScreenshotMobile.png" width="150"/>
+<img src="./images/ScreenshotMobile.png" width="300"/>
 
 **Preview Site**
 
